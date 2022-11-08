@@ -117,12 +117,15 @@ body {
 
 /* Hero section styles start */
 .hero-section {
+  
   background-color: #fff;
   background-image: url("../images/hero-bg.png");
   background-repeat: no-repeat;
   background-position: calc(50% + 520px) calc(50% - 60px);
   padding-top: 91px;
   padding-bottom: 222px;
+
+  
 }
 
 .hero-section__content {
@@ -219,6 +222,11 @@ body {
   margin-top: -80px;
   padding-top: 204px;
   padding-bottom: 120px;
+  width: 1365px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 15px;
+  padding-left: 15px;
 }
 
 .static-sec-title {
@@ -268,14 +276,14 @@ body {
 
   background: #3a3054;
 }
-.card-img-3{
+.card-img-3 {
   width: 88px;
   height: 88px;
   position: absolute;
   bottom: 247px;
   padding: 24px 24px 24px 20px;
   border-radius: 50%;
- 
+
   background: #3a3054;
 }
 
@@ -300,7 +308,7 @@ body {
   margin-right: 30px;
   margin-top: 65px;
 }
-.static-card-3{
+.static-card-3 {
   width: 350px;
   height: 290px;
   background: #ffffff;
@@ -324,4 +332,35 @@ body {
   color: #9e9aa8;
 }
 
+/******************************************* boost section *****************************************/
+
+.boost-container {
+  width: 1365px;
+  margin-top: -55px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 2px;
+  padding-right: 15px;
+  padding-left: 15px;
+  background-image: url(../images/main-end-back.png);
+}
+
+.boost-sec-title {
+  font-size: 40px;
+  line-height: 48px;
+  text-align: center;
+  letter-spacing: -1px;
+  color: #ffffff;
+  margin-top: 57px;
+}
+
+.boost-btn {
+  width: 197px;
+  height: 56px;
+  background: #2bd0d0;
+  border-radius: 28px;
+  margin-left: 608px;
+  margin-right: 607px;
+  margin-bottom: 57px;
+}
 /************************** Main styles end **************************/

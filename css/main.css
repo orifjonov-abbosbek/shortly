@@ -78,6 +78,11 @@ body {
   line-height: 22px;
   color: #9e9aa8;
 }
+.site-nav__link:hover {
+  font-size: 15px;
+  line-height: 22px;
+  color: #34313d;
+}
 
 .site-header__end-login {
   font-size: 15px;
@@ -98,6 +103,10 @@ body {
   font-size: 15px;
   line-height: 22px;
   color: #fff;
+}
+.site-header__end-sign-up:hover {
+  background: #9ae3e3;
+  border-radius: 28px;
 }
 /************************** Header styles end **************************/
 
@@ -153,10 +162,15 @@ body {
   color: #ffffff;
 }
 
+.hero-section__content-get-started:hover {
+  background: #9ae3e3;
+  border-radius: 28px;
+}
+
 /* Hero section styles end */
 
 /************************** searchbox section start *******************************/
-.searchbox{
+.searchbox {
   position: relative;
   margin-top: -80px;
   z-index: 50;
@@ -171,7 +185,7 @@ body {
   width: 769px;
   height: 64px;
   padding-left: 34px;
- 
+
   border-radius: 10px;
 }
 ::placeholder {
@@ -185,11 +199,129 @@ body {
   mix-blend-mode: normal;
   opacity: 0.5;
 }
-.searchbox-btn{
-width: 188px;
-height: 64px;
-background: #2BD0D0;
-border-radius: 10px;
-margin-left: 24px;
+
+.searchbox-btn {
+  width: 188px;
+  height: 64px;
+  background: #2bd0d0;
+  border-radius: 10px;
+  margin-left: 24px;
 }
+.searchbox-btn:hover {
+  background: #9ae3e3;
+  border-radius: 10px;
+}
+
+/*********************************** static section start  ****************************************/
+
+.static-section {
+  background: #f2f2f2;
+  margin-top: -80px;
+  padding-top: 204px;
+  padding-bottom: 120px;
+}
+
+.static-sec-title {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  text-align: center;
+  letter-spacing: -1px;
+  color: #34313d;
+}
+
+.static-sec-desc {
+  font-family: "Poppins";
+  width: 540px;
+  margin-left: 280px;
+  margin-bottom: 100px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 32px;
+  text-align: center;
+  letter-spacing: 0.122727px;
+  color: #9e9aa8;
+}
+
+.static-cards {
+  display: flex;
+}
+.card-img {
+  width: 88px;
+  height: 88px;
+  position: absolute;
+  bottom: 251px;
+  padding: 24px 24px 24px 24px;
+  border-radius: 50%;
+  background: #3a3054;
+}
+.card-img-2 {
+  width: 88px;
+  height: 88px;
+  position: absolute;
+  bottom: 247px;
+  padding: 24px 24px 24px 24px;
+  border-radius: 50%;
+
+  background: #3a3054;
+}
+.card-img-3{
+  width: 88px;
+  height: 88px;
+  position: absolute;
+  bottom: 247px;
+  padding: 24px 24px 24px 20px;
+  border-radius: 50%;
+ 
+  background: #3a3054;
+}
+
+.static-card {
+  width: 350px;
+  height: 290px;
+  background: #ffffff;
+  position: relative;
+  border-radius: 5px;
+  padding-left: 34px;
+  padding-right: 34px;
+  margin-right: 30px;
+}
+.static-card-2 {
+  width: 350px;
+  height: 290px;
+  background: #ffffff;
+  position: relative;
+  border-radius: 5px;
+  padding-left: 34px;
+  padding-right: 34px;
+  margin-right: 30px;
+  margin-top: 65px;
+}
+.static-card-3{
+  width: 350px;
+  height: 290px;
+  background: #ffffff;
+  position: relative;
+  border-radius: 5px;
+  padding-left: 34px;
+  padding-right: 34px;
+  margin-right: 30px;
+  margin-top: 125px;
+}
+.card-title {
+  font-size: 22px;
+  line-height: 33px;
+  color: #34313d;
+  margin-top: 77px;
+}
+.card-desc {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 26px;
+  color: #9e9aa8;
+}
+
 /************************** Main styles end **************************/

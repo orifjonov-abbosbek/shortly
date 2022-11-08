@@ -28,11 +28,14 @@ a {
 ul {
   padding-left: 0;
   list-style: none;
+  overflow-y: hidden;
 }
 
 body {
   font-family: "Poppins";
   font-weight: 700;
+
+
 }
 
 /************************** Header styles start **************************/
@@ -117,15 +120,13 @@ body {
 
 /* Hero section styles start */
 .hero-section {
-  
+ 
   background-color: #fff;
   background-image: url("../images/hero-bg.png");
   background-repeat: no-repeat;
   background-position: calc(50% + 520px) calc(50% - 60px);
   padding-top: 91px;
   padding-bottom: 222px;
-
-  
 }
 
 .hero-section__content {
@@ -359,8 +360,80 @@ body {
   height: 56px;
   background: #2bd0d0;
   border-radius: 28px;
-  margin-left: 608px;
-  margin-right: 607px;
+  margin-left: 573px;
+  margin-right: 608px;
   margin-bottom: 57px;
 }
+
 /************************** Main styles end **************************/
+
+/***************************************** Footer section start  ***********************************/
+.site-footer{
+  margin: 0 auto;
+}
+.footer-container {
+  display: flex;
+  width: 1365px;
+
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 71.18px;
+  padding-right: 15px;
+  padding-bottom: 50px;
+  padding-left: 163.53px;
+  background-color: #000;
+}
+.footer-logo {
+  margin-right: 261.43px;
+}
+.footer-list-title {
+  text-decoration: none;
+  font-size: 16px;
+  margin-bottom: 22px;
+  line-height: 24px;
+  letter-spacing: -0.25px;
+  color: #ffffff;
+}
+.footer-list {
+  list-style: none;
+  padding-left: 0px;
+  margin-top: 5px;
+  margin-right: 78px;
+}
+
+.footer-list-item {
+  margin-bottom: 10px;
+}
+.footer-list-item-link {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 22px;
+  letter-spacing: -0.234375px;
+  color: #bfbfbf;
+}
+.footer-list-item-link:hover {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 22px;
+  letter-spacing: -0.234375px;
+  color: #2bd0d0;
+}
+.footer-logo-list {
+  display: flex;
+  margin-top: 5px;
+}
+.footer-list-logo {
+  width: 24px;
+  height: 24px;
+  margin-right: 22px;
+}
+.footer-list-logo:hover {
+  background: #2bd0d0;
+  border-radius: 50%;
+}
+.line1{
+  width: 30px;
+  height: 8px;
+  color: #1b0092;
+}

@@ -102,56 +102,94 @@ body {
 /************************** Header styles end **************************/
 
 /************************** Main styles start **************************/
-.site-main{
-    background-color: #fff;
+.site-main {
+  background-color: #fff;
 }
 
 /* Hero section styles start */
-.hero-section{
-    background-color: #fff;
-    background-image: url("../images/hero-bg.png");
-    background-repeat: no-repeat;
-    background-position: calc(50% + 520px) calc(50% - 60px);
-    padding-top: 91px;
-    padding-bottom: 222px;
+.hero-section {
+  background-color: #fff;
+  background-image: url("../images/hero-bg.png");
+  background-repeat: no-repeat;
+  background-position: calc(50% + 520px) calc(50% - 60px);
+  padding-top: 91px;
+  padding-bottom: 222px;
 }
 
-.hero-section__content{
-    width: 565px;
+.hero-section__content {
+  width: 565px;
 }
 
-.hero-section__content-title{
-    font-size: 80px;
-    line-height: 90px;
-    letter-spacing: -2px;
-    color: #34313D;
-    margin-top: 0;
-    margin-bottom: 5px;
+.hero-section__content-title {
+  font-size: 80px;
+  line-height: 90px;
+  letter-spacing: -2px;
+  color: #34313d;
+  margin-top: 0;
+  margin-bottom: 5px;
 }
 
-.hero-section__content-desc{
-    font-weight: 500;
-    font-size: 22px;
-    line-height: 36px;
-    letter-spacing: 0.15px;
-    color: #9E9AA8;    
-    margin-top: 0;
-    margin-bottom: 38px;
+.hero-section__content-desc {
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 36px;
+  letter-spacing: 0.15px;
+  color: #9e9aa8;
+  margin-top: 0;
+  margin-bottom: 38px;
 }
 
-.hero-section__content-get-started{
-    display: inline-block;
-    background-color: #2BD0D0;
-    border-radius: 28px;
-    padding-top: 14px;
-    padding-right: 40px;
-    padding-bottom: 12px;
-    padding-left: 40px;
+.hero-section__content-get-started {
+  display: inline-block;
+  background-color: #2bd0d0;
+  border-radius: 28px;
+  padding-top: 14px;
+  padding-right: 40px;
+  padding-bottom: 12px;
+  padding-left: 40px;
 
-    font-size: 20px;
-    line-height: 30px;
-    color: #FFFFFF;
+  font-size: 20px;
+  line-height: 30px;
+  color: #ffffff;
 }
 
 /* Hero section styles end */
+
+/************************** searchbox section start *******************************/
+.searchbox{
+  position: relative;
+  margin-top: -80px;
+  z-index: 50;
+}
+.searchbox-wrapper {
+  display: flex;
+  padding: 50px 65px 50px 64px;
+  background-image: url(../images/shorten-back.png);
+  background-repeat: no-repeat;
+}
+.searchbox-input {
+  width: 769px;
+  height: 64px;
+  padding-left: 34px;
+ 
+  border-radius: 10px;
+}
+::placeholder {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 36px;
+  letter-spacing: 0.15px;
+  color: #34313d;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+}
+.searchbox-btn{
+width: 188px;
+height: 64px;
+background: #2BD0D0;
+border-radius: 10px;
+margin-left: 24px;
+}
 /************************** Main styles end **************************/

@@ -1,0 +1,157 @@
+/* poppins-500 - latin */
+@font-face {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  src: local(""), url("../fonts/poppins-v20-latin-500.woff2") format("woff2"),
+    /* Super Modern Browsers */ url("../fonts/poppins-v20-latin-500.woff")
+      format("woff"); /* Modern Browsers */
+}
+/* poppins-700 - latin */
+@font-face {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  src: local(""), url("../fonts/poppins-v20-latin-700.woff2") format("woff2"),
+    /* Super Modern Browsers */ url("../fonts/poppins-v20-latin-700.woff")
+      format("woff"); /* Modern Browsers */
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  padding-left: 0;
+  list-style: none;
+}
+
+body {
+  font-family: "Poppins";
+  font-weight: 700;
+}
+
+/************************** Header styles start **************************/
+.site-header {
+  background-color: #fff;
+  padding-top: 48px;
+  padding-bottom: 48px;
+}
+
+.container {
+  width: 1138px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.site-header__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.site-header__start {
+  display: flex;
+  align-items: center;
+}
+
+.site-header__logo-img {
+  width: 120px;
+  height: 32px;
+  margin-right: 45px;
+}
+
+.site-nav__list {
+  display: flex;
+  justify-content: space-between;
+  width: 265px;
+}
+
+.site-nav__link {
+  font-size: 15px;
+  line-height: 22px;
+  color: #9e9aa8;
+}
+
+.site-header__end-login {
+  font-size: 15px;
+  line-height: 22px;
+  color: #9e9aa8;
+  margin-right: 37px;
+}
+
+.site-header__end-sign-up {
+  display: inline-block;
+  background-color: #2bd0d0;
+  border-radius: 28px;
+  padding-top: 9px;
+  padding-right: 23px;
+  padding-bottom: 8px;
+  padding-left: 24px;
+
+  font-size: 15px;
+  line-height: 22px;
+  color: #fff;
+}
+/************************** Header styles end **************************/
+
+/************************** Main styles start **************************/
+.site-main{
+    background-color: #fff;
+}
+
+/* Hero section styles start */
+.hero-section{
+    background-color: #fff;
+    background-image: url("../images/hero-bg.png");
+    background-repeat: no-repeat;
+    background-position: calc(50% + 520px) calc(50% - 60px);
+    padding-top: 91px;
+    padding-bottom: 222px;
+}
+
+.hero-section__content{
+    width: 565px;
+}
+
+.hero-section__content-title{
+    font-size: 80px;
+    line-height: 90px;
+    letter-spacing: -2px;
+    color: #34313D;
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+.hero-section__content-desc{
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 36px;
+    letter-spacing: 0.15px;
+    color: #9E9AA8;    
+    margin-top: 0;
+    margin-bottom: 38px;
+}
+
+.hero-section__content-get-started{
+    display: inline-block;
+    background-color: #2BD0D0;
+    border-radius: 28px;
+    padding-top: 14px;
+    padding-right: 40px;
+    padding-bottom: 12px;
+    padding-left: 40px;
+
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+/* Hero section styles end */
+/************************** Main styles end **************************/

@@ -34,8 +34,6 @@ ul {
 body {
   font-family: "Poppins";
   font-weight: 700;
-
-
 }
 
 /************************** Header styles start **************************/
@@ -120,7 +118,6 @@ body {
 
 /* Hero section styles start */
 .hero-section {
- 
   background-color: #fff;
   background-image: url("../images/hero-bg.png");
   background-repeat: no-repeat;
@@ -364,11 +361,15 @@ body {
   margin-right: 608px;
   margin-bottom: 57px;
 }
+.boost-btn:hover {
+  background: #9ae3e3;
+  border-radius: 24px;
+}
 
 /************************** Main styles end **************************/
 
 /***************************************** Footer section start  ***********************************/
-.site-footer{
+.site-footer {
   margin: 0 auto;
 }
 .footer-container {
@@ -432,7 +433,7 @@ body {
   background: #2bd0d0;
   border-radius: 50%;
 }
-.line1{
+.line1 {
   width: 30px;
   height: 8px;
   color: #1b0092;
